@@ -2,14 +2,14 @@
 As simple HTTP server written in golang for testing and demo in Docker
 This app helps in demonstrating basic functionalities like e.g. sending back some request header info, the local IP address of the container and how to include the usage of environment variables.
  <img src="https://miro.medium.com/max/3200/1*g5TEj1R0X0CzTgvielr0Yw.png" width="250"  height="300"  align="left">
-### what does it do?
+### What does it do?
 
 This container starts a webserver on port 8000 and returns back 
 - some header information
 - the local ip address of the container
 - the message provided by environment variable called _message_  
 
-### usage
+### Usage
 
 to start _simplehttp_ web server , map local port 8000 into container and provide the env variable **message**:  
 ```bash
